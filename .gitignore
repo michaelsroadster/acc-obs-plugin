@@ -7,12 +7,15 @@
 !/cmake
 !/data
 !/src
+!/.vscode
+!/.vscode/**
 !.clang-format
 !.cmake-format.json
 !.gitignore
 !buildspec.json
 !CMakeLists.txt
 !CMakePresets.json
+!BUILDING.md
 !LICENSE
 !README.md
 

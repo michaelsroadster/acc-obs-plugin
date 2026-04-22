@@ -214,9 +214,9 @@ static void fill_remaining_properties(obs_properties_t* props, struct accsp_text
 	}
 	if (found && (found->flags & FLAG_TEXTURE_USER_SIZE) != 0)
 	{
-		p = obs_properties_add_int(props, "width", "Width", 32, 2048, 1);
+		p = obs_properties_add_int(props, "width", "Width", 32, 5120, 1);
 		obs_property_set_long_description(p, "Configured size is shared across all instances of the same type.");
-		p = obs_properties_add_int(props, "height", "Height", 32, 2048, 1);
+		p = obs_properties_add_int(props, "height", "Height", 32, 5120, 1);
 		obs_property_set_long_description(p, "Configured size is shared across all instances of the same type.");
 	}
 
